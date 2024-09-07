@@ -138,6 +138,7 @@ sign_out.addEventListener('click', function() {
 const form_in = document.getElementById('sign-in');
 if (form_in) {
     form_in.addEventListener('submit', (event) => {
+        event.preventDefault();
         changePathname('/','Successfully logged In');
     });
 }
