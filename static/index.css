@@ -1,0 +1,144 @@
+* {
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+a {
+    color: black;
+}
+input {
+    border: 1px solid #b9bbbe !important;
+    border-radius: .50rem !important;
+}
+.bg-my {
+    background-color: #fcfcfc;
+}
+.bg-trs {
+    background-color: transparent;
+}
+.bg-light1 {
+    background-color: #f0f1f3  !important;
+}
+.dropdown-item:hover {
+    background-color: #f0f1f3  !important;
+    color: black !important;
+}
+.dropdown-item:active {
+    background-color: #c7c8ca !important;
+    color: black !important;
+}
+.sign-out {
+    font-size: large;
+    text-decoration: solid;
+    border-color: #c7c8ca !important;
+}
+.sign-out:hover {
+    background-color: #c2cbde;
+    color: black;
+}
+.my-albume {
+    width: clamp( 400px , 90% , 1250px );
+}
+.card img{
+    width: 100%;
+    height: clamp( 100px , 230px , 230px);
+}
+.card-body a {
+    text-decoration: none;
+    color: #212529;
+}
+.card-body a {
+    color: #212529 !important;
+}
+.card-text{
+    margin-bottom: 7px;
+    font-size: 1.4rem;
+}
+.card-text-m{
+    margin-bottom: 7px;
+    font-size: 1.3rem;
+    height: 63px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+.men img {
+    width: 100%;
+    height: clamp( 100px , 400px , 400px);
+}
+.women img {
+    width: 100%;
+    height: clamp( 100px , 400px , 400px);
+}
+.kids img {
+    width: 100%;
+    height: clamp( 100px , 400px , 400px);
+}
+.card-desc {
+    font-size: 1rem;
+    color: #413c3ccb;
+    /* font-weight: 400 !important; */
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #c7c8ca #c7c8ca transparent #c7c8ca !important;
+}
+.sing-marg {
+    margin: 60px auto;
+}
+.sing-marg form {
+    background-color: #f0f1f3  !important;
+    border-radius: .75rem;
+}
+.sing-marg form h6 {
+    color: rgb(0, 0, 0, .7);
+}
+.form-floating1 {
+    position: relative;
+}
+.form-floating1 > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.form-floating1 > .form-control,
+.form-floating1 > .form-select {
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+}
+.form-floating1 > .form-control::placeholder {
+    color: transparent;
+    opacity: 0;
+}
+.form-floating1 > .form-control:not(:-ms-input-placeholder)::-ms-input-placeholder {
+    color: transparent;
+}
+.form-floating1 > .form-control:focus,
+.form-floating1 > .form-control:not(:placeholder-shown),
+.form-floating1 > .form-select {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+}
+.form-floating1 > .form-control:focus ~ label,
+.form-floating1 > .form-control:not(:placeholder-shown) ~ label,
+.form-floating1 > .form-select ~ label {
+    opacity: 0.65;
+    transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.form-floating1 > .form-select {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+}
+.form-floating1 > .form-select ~ label {
+    padding-top: calc(0.625rem + 1px);
+    padding-bottom: calc(0.625rem + 1px);
+}
+.Contact-us-img {
+    height: 500px;
+}

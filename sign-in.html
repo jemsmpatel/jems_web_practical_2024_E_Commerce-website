@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="static/index.css">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.6.0-dist/js/jquery-3.6.0.slim.js"></script>
+    <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body class="bg-my">
+    <header class="navbar-light bg-light1 pt-2 px-2 d-flex">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="index.html"> home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="about-us.html"> about us </a>
+            </li>
+            <li class="nav-item">
+                <div class="btn-group">
+                    <button type="button" class="nav-link text-dark btn-link dropdown-toggle bg-trs " data-toggle="dropdown"> Products gallery </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="men.html">Men</a>
+                        <a class="dropdown-item" href="women.html">Women</a>
+                        <a class="dropdown-item" href="kids.html">kids</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="contact-us.html"> contact us </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark active" href="sign-in.html"> sign in </a>
+            </li>
+        </ul>
+        <button class="mb-2 ml-auto px-3 sign-out" id="sign-out">sign out</button>
+    </header>
+    <div class="pb-2 bg-white"></div>
+
+    <!-- form -->
+    <div class="col-md-10 col-lg-5 sing-marg">
+        <form class="px-5 border bg-body-tertiary shadow-lg rounded-3" action="/" id="sign-in">
+            <h2 class="my-4">sign-in</h2>
+            <div class="form-floating1 mb-3">
+                <input type="email" class="form-control" id="Email" name="Email" autocomplete="email" placeholder="name@example.com" required>
+                <label for="Email">Email address</label>
+            </div>
+            <div class="form-floating1 mb-3">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" minlength="8" maxlength="15" required>
+                <label for="password">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+                <label for="remember-me">
+                    <input type="checkbox" value="remember-me" id="remember-me" name="remember-me"> Remember me
+                </label>
+                <div class="float-right">
+                    <a href="#Forgot-your-password">Forgot your password?</a>
+                </div>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
+            <hr class="my-4">
+            <h6 class="text-body-secondary text-center pb-4">Don’t have an account? Please <a href="sign-up.html">sign up.</a></h6>
+        </form>
+    </div>
+    
+    <!-- footer -->
+    <div class="pb-2 bg-white"></div>
+    <footer class="bg-light1 py-md-5">
+        <div class="container text-center">
+            <p>&copy; 2024 ShopMaster. All Rights Reserved.</p>
+            <ul class="list-inline m-0">
+                <li class="list-inline-item px-3"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item px-3"><a href="#">Terms of Service</a></li>
+                <li class="list-inline-item px-3"><a href="#">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="static/index.js"></script>
+
+</body>
+</html>
